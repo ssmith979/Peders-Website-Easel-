@@ -1,0 +1,258 @@
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+     
+
+body{
+    background: rgb(219, 219, 212);
+    font-family: 'Yatra One', cursive;
+    position: relative;
+   
+    
+
+}
+/*Section1*/
+
+#main{
+    margin: auto;
+    position: relative;
+    border-radius: 1.50%;
+    background-color: rgb(57, 58, 63);
+    width:85%;
+    height:350pt;
+    border: rgb(57, 58, 63) solid;
+    box-shadow: rgb(14, 13, 13) 3px 4px 10px;
+  
+}
+#easel{
+    background-size: 50%;
+    width:220pt;
+    min-width: 50px;
+    max-width: 400px;
+    position: absolute;
+    top: 60pt;
+    left: 20pt;
+    margin-top: 40pt;
+  
+}
+#button1{
+
+ background-image: url("nature1.png");
+ background-repeat: no-repeat;
+ background-size: 30%;
+ width: 30%;
+ height: 70pt;
+ position: absolute; 
+  top: -10pt;
+ transform: translate(120pt, 150pt);
+ margin: 20pt 20pt;
+ 
+ 
+
+ 
+}
+#button2{
+    
+    background-image: url("anatomy1.png");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    width: 70pt;
+    height: 50pt;
+    position: absolute;
+     top: 9pt;
+     left: 40pt;
+     transform: translate(10%, 130pt);
+     text-align: right;
+   
+    
+   
+    
+}
+ #button3{
+    background-image: url("abstract1.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    width: 30%;
+    height: 50pt;
+    margin-right: 10pt;
+    position: absolute;
+     top: 60pt;
+     left: 120pt;
+     transform: translate(10pt, 160pt);
+    
+    
+}
+#button4{
+    background-image: url("archi2.png");
+    background-repeat: no-repeat;
+    background-size: 40%;
+    width: 70pt;
+    height: 60pt;
+    margin-right: 30pt;
+    position: absolute;
+     top: 40pt;
+     left: 50pt;
+     transform: translate(10pt, 160pt);
+   
+    
+   
+}
+.font{
+
+ 
+    font-family: 'Londrina Sketch', cursive;
+    color: ivory;
+    font-weight: 110%;
+    font-size: 300%;
+    box-shadow: blanchedalmond;
+    height: 30pt;
+    position: absolute;
+    left: -20pt;
+    margin-top: 0pt;
+    margin-right: 80pt;
+    padding-left: 15pt;
+    padding-bottom: 40pt;
+    transform: translate(70pt, 30pt);
+    border: solid rgb(10, 9, 9);
+    border-right: none;
+    border-bottom: none;
+   
+}
+
+#title{
+    padding-bottom: 80pt;
+
+}
+
+
+/*Section2*/
+
+#carousel-example-generic{
+		
+    margin:auto;
+    margin-bottom: 15pt;
+}
+#carousel-example-generic-2{
+    margin:auto;
+    margin-bottom: 15pt;
+}
+#carousel-example-generic-3{
+    margin:auto;
+    margin-bottom: 15pt;
+}
+#carousel-example-generic-4{
+    margin:auto;
+    margin-bottom: 15pt;
+}
+
+.slide{
+    width:250px;
+    border-radius: 30%;
+    
+}
+.carousels{
+    background: black;
+    background-position: center;
+    border-radius: 1%;
+    border: black solid;
+    width: 90%;
+    margin:auto;
+    margin-bottom: 20pt;
+    box-shadow: rgb(95, 94, 94) 4px 6px 9px;
+}
+.carousel-caption{
+    position: relative;
+    top: -2pt;
+   
+}
+#myart{
+    text-align: center;
+    color: white;
+    padding: 20pt
+}
+
+
+
+/*Section3*/
+
+#About{
+    background: rgba(3, 3, 3, 0.877) ;
+    position: relative;
+    width: 90%;
+    height: 400pt;
+    margin: auto;
+    box-shadow: rgb(18, 18, 24)  5pt 5pt 6pt;
+    border-radius: 3%;
+  
+}
+#AP{
+    width: 110pt ;
+    height: 110pt;
+    position: relative;
+    left: -8pt;
+    top:2pt;
+    background-color: burlywood;
+    margin: 20pt;
+    border-radius: 20%;
+    box-shadow: rgb(149, 148, 150) 1pt 2pt 3pt;
+}
+#AH{
+    width: 130pt;
+    height: 70pt;
+    position: relative;
+    left: 140pt;
+    top: -120pt;
+    padding-top: 15pt;
+    font-size: 23pt;
+    font-family:   'Playfair Display', serif;
+    color: rgb(247, 245, 242);
+}
+#hr{
+    position: relative;
+    top: -100pt;
+    color: rgb(214, 205, 178);
+}
+ article{
+    columns: 3;
+    column-gap: 7pt;
+    column-rule: 2pt solid rgb(82, 82, 82);
+    color: rgb(255, 255, 255);
+    height: 90pt;
+    text-align: center;
+    align-content: center;
+    margin:20pt;
+    position: relative;
+    top: -50pt;
+    padding: 10pt;
+   overflow: hidden;
+   line-height: 2em;
+  
+}
+
+article p{
+    position: relative;
+   overflow: hidden;
+	text-align: center;
+}
+#footer{
+    float: right;
+    font-family:'Dancing Script', cursive;
+    font-size: 19pt;
+    color: rgb(247, 242, 228);
+    position: relative;
+    top: -45pt;
+    right: 20pt;
+}
+#resume{
+    float: right;
+    position: relative;
+    left: 90pt;
+    text-align: right;
+    text-decoration: underline;
+    font-family: serif;
+    color: rgba(252, 250, 247, 0.651);
+}
